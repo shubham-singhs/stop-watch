@@ -1,0 +1,52 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+section.stopwatch-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 70vh;
+}
+.start,
+.pause,
+.reset {
+  padding: 10px 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.start {
+  background-color: green;
+  color: white;
+}
+.pause {
+  background-color: orangered;
+  color: white;
+}
+.reset {
+  background-color: rgb(255, 30, 30);
+  color: white;
+}
+.stopwatch-display input {
+  border: none;
+  font-size: 48px;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
